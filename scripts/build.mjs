@@ -33,7 +33,7 @@ ${k.prompt}
 Paste it into a chat with [Hey Atu](${utm(k.id)}), or into Claude Code, Codex or Pi.
 `);
 
-const cell = k => `<td width="50%" valign="top"><a href="${k.url}"><img src="media/${k.id}.webp" alt="${k.title}, by ${k.by}" width="100%"></a><br><b>${k.title}</b><br><sub>${k.kind} · <a href="${k.url}">${k.by}</a> on ${k.source} · ${heat(k)}</sub><br><sub><a href="prompts/${k.id}.md">Prompt</a> · <a href="${utm(k.id)}">Build mine with Atu</a></sub></td>`;
+const cell = k => `<td width="50%" valign="top"><a href="${k.url}"><img src="media/${k.id}.webp" alt="${k.title}, by ${k.by}" width="100%"></a><br><b>${k.title}</b><br>${k.kind} · <a href="${k.url}">${k.by}</a> · ${heat(k)}<br><a href="prompts/${k.id}.md">Prompt</a> · <a href="${utm(k.id)}">Build mine with Atu</a></td>`;
 const rows = list => { const out = []; for (let i = 0; i < list.length; i += 2) out.push(`<tr>${cell(list[i])}${list[i + 1] ? cell(list[i + 1]) : '<td width="50%"></td>'}</tr>`); return `<table>\n${out.join("\n")}\n</table>`; };
 
 const readme = `# Atu Marketplace
