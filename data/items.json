@@ -1,0 +1,100 @@
+{
+  "updated": "2026-11-15",
+  "groups": [
+    { "id": "health", "type": "app", "name": "Health apps", "intro": "Health and fitness apps people loved. Atu builds yours on your own data, as a Space you open on your phone or as a standalone app." },
+    { "id": "launch", "type": "video", "name": "Launch films", "intro": "Product and feature films made by coding agents from a prompt. Give Atu your product and it makes yours." },
+    { "id": "intro", "type": "video", "name": "Intros & openers", "intro": "Openers, title sequences and showreels made by coding agents. Use one at the start of a launch, a vlog or a channel." }
+  ],
+  "items": [
+    {
+      "id": "openstrap-wearable-app", "group": "health", "title": "Your wearable's app, without the subscription",
+      "oneLiner": "A warm, calm health app for a WHOOP band: recovery ring, heart rate, sleep, strain and stress on one Today screen.",
+      "by": "OpenStrap", "source": "GitHub", "kind": "Open-source app", "url": "https://github.com/OpenStrap/edge", "stars": 924,
+      "aspect": "phone",
+      "youGet": ["A Today screen with a recovery ring and four metric cards with sparklines", "Sleep, heart rate and workout screens", "Your own data from Fitbit, WHOOP, Oura, Garmin or Apple Health, synced to your Mac every morning", "A Hey Atu Space on your phone, or a standalone web app"],
+      "promptBy": "Hey Atu",
+      "prompt": "Build me a personal health app in the style of OpenStrap Edge (https://github.com/OpenStrap/edge).\n\nData: use my own wearable data. Ask me which device I wear (Fitbit, WHOOP, Oura, Garmin or Apple Watch), set up the connection on my Mac, and sync it every morning. Until it is connected, use 30 days of realistic sample data.\n\nScreens:\n1. Today: a large recovery ring (0-100%) with a one-word verdict, then four cards for heart rate, sleep, strain and stress, each with today's number and a 7-day sparkline.\n2. Sleep: last night's stages as a timeline, the 14-night trend.\n3. Heart rate: resting heart rate and HRV over 30 days.\n4. Workouts: a list with duration, average heart rate and load.\n\nLook: warm off-white background, white rounded cards with soft shadows, one coral accent, big tabular numbers, small labels. Numbers count up and rings draw in when a screen opens. Offer a dark version too.\n\nMake it a Hey Atu Space I can open on my phone. Add a small line: not medical advice."
+    },
+    {
+      "id": "fitness-app-motion", "group": "health", "title": "A fitness app with playful motion",
+      "oneLiner": "Bold cards, big numbers and springy transitions between a workout list and a live session.",
+      "by": "tubik", "source": "Dribbble", "kind": "Designer's concept", "url": "https://dribbble.com/shots/9809369-Fitness-App-UI-Animation", "likes": 767, "views": 268000,
+      "youGet": ["A workout list and a live-session screen with the same motion language", "Your real workouts from your watch or a log you keep with Atu", "A Hey Atu Space on your phone, or a standalone web app"],
+      "promptBy": "Hey Atu",
+      "prompt": "Build me a workout app with playful motion, in the style of tubik's Fitness App UI Animation (https://dribbble.com/shots/9809369-Fitness-App-UI-Animation).\n\nData: my workouts from my watch (ask which one and connect it on my Mac), plus anything I tell you in chat (\"did 3x10 squats at 60 kg\"). Use sample data until it is connected.\n\nScreens:\n1. This week: a stack of bold colour cards, one per workout type, each with minutes and a progress bar to my weekly goal.\n2. Session: tap a card and it expands into a full-screen session with a big timer, heart rate and the next exercise.\n3. History: a calendar with a dot per workout day.\n\nMotion: cards expand from where they were tapped, numbers count up, progress bars fill with a little overshoot. Keep every animation under 400 ms.\n\nMake it a Hey Atu Space I can open on my phone."
+    },
+    {
+      "id": "health-tracker-dashboard", "group": "health", "title": "A health tracker dashboard",
+      "oneLiner": "One screen with heart rate, sleep, steps and calories, each as a clean card that animates in.",
+      "by": "Sigma Software Design", "source": "Dribbble", "kind": "Designer's concept", "url": "https://dribbble.com/shots/24693286-Health-Tracker-Dashboard-UI-UX-Design", "likes": 421, "views": 237000,
+      "youGet": ["A one-page dashboard: heart rate, sleep, steps, calories and weekly trends", "Your own wearable data, refreshed every morning", "A morning summary in Updates, with the dashboard one tap away"],
+      "promptBy": "Hey Atu",
+      "prompt": "Build me a health dashboard in the style of Sigma Software Design's Health Tracker (https://dribbble.com/shots/24693286-Health-Tracker-Dashboard-UI-UX-Design).\n\nData: my wearable data (ask which device and connect it on my Mac), synced every morning. Use sample data until it is connected.\n\nLayout: a greeting and today's date, then a grid of cards: heart rate (live-style line), sleep (hours and stages bar), steps (ring to my goal), calories (bar per day this week), and a weekly trend card that compares this week with last week.\n\nLook: light, airy, generous white space, one accent colour per metric, rounded cards, large numbers. Cards fade and rise in one after another; charts draw from left to right.\n\nMake it a Hey Atu Space I can open on my phone, and send me a short morning summary in Updates that links to it. Not medical advice."
+    },
+    {
+      "id": "diet-workout-tracker", "group": "health", "title": "A diet and workout tracker",
+      "oneLiner": "Meals, macros and workouts in one app, with soft colours and friendly motion.",
+      "by": "Musemind", "source": "Dribbble", "kind": "Designer's concept", "url": "https://dribbble.com/shots/20243423-Diet-Workout-Tracker-App-Design-Nutrition-Mobile-App-UI-UX", "likes": 415, "views": 154000,
+      "youGet": ["A daily ring for calories and bars for protein, carbs and fat", "Log a meal by sending a photo or a sentence to Atu", "Workouts from your watch next to what you ate", "A Hey Atu Space on your phone, or a standalone web app"],
+      "promptBy": "Hey Atu",
+      "prompt": "Build me a diet and workout tracker in the style of Musemind's Diet & Workout Tracker (https://dribbble.com/shots/20243423-Diet-Workout-Tracker-App-Design-Nutrition-Mobile-App-UI-UX).\n\nData: I log meals by sending you a photo or a sentence (\"two eggs and toast\"); estimate calories and macros and let me correct them. Pull workouts and active calories from my watch (ask which one and connect it on my Mac). Use sample data to start.\n\nScreens:\n1. Today: a calorie ring (eaten vs goal, with burned added back), three macro bars, meals as cards with a small photo.\n2. Week: calories in vs out per day, and a line for weight if I log it.\n3. Workouts: this week's sessions.\n\nLook: soft pastel cards, one strong accent, rounded type, friendly icons. Rings and bars animate when the screen opens.\n\nMake it a Hey Atu Space I can open on my phone."
+    },
+    {
+      "id": "distilbook-launch-film", "group": "launch", "title": "A 40-second showreel for your product",
+      "oneLiner": "The agent researched the product, then made a 40-second motion film of its features from one prompt.",
+      "by": "@ajith_io", "source": "X", "kind": "Made by an agent", "url": "https://x.com/ajith_io/status/2103469807375208546", "likes": 640, "views": 110671, "tools": "Claude Opus 5.5",
+      "youGet": ["A 40-second 1080p motion film of your product's features", "Real UI and copy from your own site", "16:9 and 9:16 versions for your site and social"],
+      "promptBy": "the creator",
+      "prompt": "Research [your product]. Make a dynamic 40-second motion graphics video on [your product] that shows what an incredible motion designer you are, like it's your showreel. Go all out."
+    },
+    {
+      "id": "saas-launch-film", "group": "launch", "title": "A SaaS launch film with real product shots",
+      "oneLiner": "Told to pick a well-known SaaS, the agent chose Notion, pulled real assets and cut a launch film.",
+      "by": "@moritzkremb", "source": "X", "kind": "Made by an agent", "url": "https://x.com/moritzkremb/status/2103066071838466494", "likes": 445, "views": 100530, "tools": "Claude Opus 5.5",
+      "youGet": ["A 45-second launch film: hook, features, social proof, end card", "Your product's real screenshots and logo", "An MP4 ready for X, LinkedIn and your site"],
+      "promptBy": "the creator",
+      "prompt": "I want you to create a highly professional SaaS product launch video. Go and find some SaaS, preferably just one that people know, so it's easier to identify with it. Pick that, and then make sure to get actual assets and images and all of that stuff from the internet. Turn it into these typical, very professionally edited, motion-graphics-styled product launch videos that you see people making on Twitter when they launch new SaaS products (which are showing off the features, the benefits, and all of these things).\n\nTo make one for your own product, replace the first part with: \"Make it for [your product]: [link].\""
+    },
+    {
+      "id": "punchy-social-promo", "group": "launch", "title": "A punchy vertical promo for social",
+      "oneLiner": "Big type, black and white, one idea per beat. Made for Lightspark in five minutes, with sound.",
+      "by": "@davidmarcus", "source": "X", "kind": "Made by an agent", "url": "https://x.com/davidmarcus/status/2103275618045686217", "likes": 284, "views": 26159, "tools": "Claude Opus 5.5",
+      "aspect": "vertical",
+      "youGet": ["A 20-second 9:16 promo with sound", "Kinetic type that says what your product does in five beats", "Ready for Reels, TikTok, Shorts and Xiaohongshu"],
+      "promptBy": "the creator",
+      "prompt": "Make a punchy and modern short video for social that promotes [your product]'s capabilities. Needs to be production grade with sound."
+    },
+    {
+      "id": "feature-trailer", "group": "launch", "title": "A trailer for one new feature",
+      "oneLiner": "A Notion PM made the column-permissions launch trailer over a weekend: about 90 messages and 33 takes.",
+      "by": "@wustep", "source": "X", "kind": "Made by an agent", "url": "https://x.com/wustep/status/2104610435571884086", "likes": 156, "views": 55021, "tools": "Claude Opus 5.5, Remotion",
+      "youGet": ["A 30-second trailer for one feature: problem, the feature in your real UI, the end card", "Takes you can compare and refine in chat", "An MP4 for the changelog, X and your blog"],
+      "promptBy": "Hey Atu, from the creator's thread",
+      "prompt": "Make a 30-second launch trailer for one new feature of [your product]: [feature name].\n\nStructure: open on the problem in one short line of big type; show the feature in a faithful rebuild of our real UI (use the screenshots I give you); end on \"[feature name]. Now available in [product]\" with our logo.\n\nBuild it in Remotion (React), 1920x1080, 30 fps, clean light theme, smooth easing, no stock footage. Render a take, show it to me, and keep a list of takes so I can compare versions."
+    },
+    {
+      "id": "music-video-reimagined", "group": "intro", "title": "A music video, re-imagined overnight",
+      "oneLiner": "Given a song, a moodboard and Midjourney, the agent worked for 12 hours and returned a full music video.",
+      "by": "@anabology", "source": "X", "kind": "Made by an agent", "url": "https://x.com/anabology/status/2103534482930491441", "likes": 16513, "views": 20226211, "tools": "Claude Opus 5.5, Midjourney",
+      "youGet": ["A full-length video set to your track", "A visual style led by your moodboard", "Stills you can reuse as covers"],
+      "promptBy": "the creator",
+      "prompt": "I've included an MP4 file and an original link to a video that is called \"[title]\". [One line about the song.]\n\nI want you to independently do an end-to-end complete pass on making an updated version of this video. Use the exact same audio track and think and feel very deeply about what is the best way to visually represent all of the lyrics on screen. You do not need to anchor to the current style, you can do truly anything that you think might best let you visually express yourself, including abstract motion."
+    },
+    {
+      "id": "three-model-showreel", "group": "intro", "title": "Three openers, three models, one prompt each",
+      "oneLiner": "A hand-drawn story, a kinetic-type showreel and a recipe with live counters, side by side.",
+      "by": "@N01ennn", "source": "X", "kind": "Made by an agent", "url": "https://x.com/N01ennn/status/2108520767092597182", "likes": 1465, "views": 121708, "tools": "Claude Opus, Sonnet and Haiku 5.5",
+      "youGet": ["An opener in one of three styles: hand-drawn story, kinetic type or step-by-step", "15 to 50 seconds, rendered to MP4", "Your title, logo and colours"],
+      "promptBy": "the post",
+      "prompt": "Pick one:\n\n1. A hand-drawn story: a little agent wakes up at its desk, gets feedback notes, fixes them, ends on heart eyes and a green check. 53 s.\n2. A kinetic type showreel: six easing curves, a morphing star, particles, blurred type, \"every frame written in code\". 15 s.\n3. A step-by-step White Russian recipe: ice, vodka, coffee liqueur, cream, with live counters and a checklist. 30 s.\n\nSwap the subject for your own: your channel, your product or your recipe."
+    },
+    {
+      "id": "product-intro-film", "group": "intro", "title": "A 15-second product intro",
+      "oneLiner": "The agent visited the product's pages, wrote the script and animated a crisp 15-second intro.",
+      "by": "@ann_nnng", "source": "X", "kind": "Made by an agent", "url": "https://x.com/ann_nnng/status/2103723183899852885", "likes": 983, "views": 102857, "tools": "Claude Opus 5.5",
+      "youGet": ["A 15-second intro: the hook, the product in action, the logo", "Copy written from your own site", "An MP4 for the top of your launch post or video"],
+      "promptBy": "the creator",
+      "prompt": "Make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are. The content should focus on [your product]. You should visit the pages first to learn about the product, then write the video content yourself."
+    }
+  ]
+}
