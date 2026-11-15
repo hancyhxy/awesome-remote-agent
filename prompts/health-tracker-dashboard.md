@@ -25,4 +25,4 @@ Look: light, airy, generous white space, one accent colour per metric, rounded c
 Make it a Hey Atu Space I can open on my phone, and send me a short morning summary in Updates that links to it. Not medical advice.
 ```
 
-Paste it into a chat with [Hey Atu](https://heyatu.com/?utm_source=github&utm_medium=readme&utm_campaign=awesome-atu-marketplace&utm_content=health-tracker-dashboard), or into Claude Code, Codex or Pi.
+Paste it into a chat with [Hey Atu](https://heyatu.com/?utm_source=github&utm_medium=readme&utm_campaign=awesome-remote-agent&utm_content=health-tracker-dashboard), or into Claude Code, Codex or Pi.

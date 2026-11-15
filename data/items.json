@@ -1,100 +1,448 @@
 {
   "updated": "2026-11-15",
   "groups": [
-    { "id": "health", "type": "app", "name": "Health apps", "intro": "Health and fitness apps people loved. Atu builds yours on your own data, as a Space you open on your phone or as a standalone app." },
-    { "id": "launch", "type": "video", "name": "Launch films", "intro": "Product and feature films made by coding agents from a prompt. Give Atu your product and it makes yours." },
-    { "id": "intro", "type": "video", "name": "Intros & openers", "intro": "Openers, title sequences and showreels made by coding agents. Use one at the start of a launch, a vlog or a channel." }
+    {
+      "id": "health",
+      "type": "app",
+      "name": "Health apps",
+      "intro": "Health and fitness apps people loved. Atu builds yours on your own data, as a Space you open on your phone or as a standalone app."
+    },
+    {
+      "id": "launch",
+      "type": "video",
+      "name": "Launch films",
+      "intro": "Product and feature films made by coding agents from a prompt. Give Atu your product and it makes yours."
+    },
+    {
+      "id": "edit",
+      "type": "video",
+      "name": "Editing real footage",
+      "intro": "Raw footage in, finished edit out. The agent cuts, captions and adds b-roll; you review and ask for changes."
+    },
+    {
+      "id": "intro",
+      "type": "video",
+      "name": "Intros & openers",
+      "intro": "Openers, title sequences and showreels made by coding agents. Use one at the start of a launch, a vlog or a channel."
+    }
   ],
   "items": [
     {
-      "id": "openstrap-wearable-app", "group": "health", "title": "Your wearable's app, without the subscription",
+      "id": "openstrap-wearable-app",
+      "group": "health",
+      "title": "Your wearable's app, without the subscription",
       "oneLiner": "A warm, calm health app for a WHOOP band: recovery ring, heart rate, sleep, strain and stress on one Today screen.",
-      "by": "OpenStrap", "source": "GitHub", "kind": "Open-source app", "url": "https://github.com/OpenStrap/edge", "stars": 924,
+      "by": "OpenStrap",
+      "source": "GitHub",
+      "kind": "Open-source app",
+      "url": "https://github.com/OpenStrap/edge",
+      "stars": 924,
       "aspect": "phone",
-      "youGet": ["A Today screen with a recovery ring and four metric cards with sparklines", "Sleep, heart rate and workout screens", "Your own data from Fitbit, WHOOP, Oura, Garmin or Apple Health, synced to your Mac every morning", "A Hey Atu Space on your phone, or a standalone web app"],
+      "youGet": [
+        "A Today screen with a recovery ring and four metric cards with sparklines",
+        "Sleep, heart rate and workout screens",
+        "Your own data from Fitbit, WHOOP, Oura, Garmin or Apple Health, synced to your Mac every morning",
+        "A Hey Atu Space on your phone, or a standalone web app"
+      ],
       "promptBy": "Hey Atu",
       "prompt": "Build me a personal health app in the style of OpenStrap Edge (https://github.com/OpenStrap/edge).\n\nData: use my own wearable data. Ask me which device I wear (Fitbit, WHOOP, Oura, Garmin or Apple Watch), set up the connection on my Mac, and sync it every morning. Until it is connected, use 30 days of realistic sample data.\n\nScreens:\n1. Today: a large recovery ring (0-100%) with a one-word verdict, then four cards for heart rate, sleep, strain and stress, each with today's number and a 7-day sparkline.\n2. Sleep: last night's stages as a timeline, the 14-night trend.\n3. Heart rate: resting heart rate and HRV over 30 days.\n4. Workouts: a list with duration, average heart rate and load.\n\nLook: warm off-white background, white rounded cards with soft shadows, one coral accent, big tabular numbers, small labels. Numbers count up and rings draw in when a screen opens. Offer a dark version too.\n\nMake it a Hey Atu Space I can open on my phone. Add a small line: not medical advice."
     },
     {
-      "id": "fitness-app-motion", "group": "health", "title": "A fitness app with playful motion",
+      "id": "fitness-app-motion",
+      "group": "health",
+      "title": "A fitness app with playful motion",
       "oneLiner": "Bold cards, big numbers and springy transitions between a workout list and a live session.",
-      "by": "tubik", "source": "Dribbble", "kind": "Designer's concept", "url": "https://dribbble.com/shots/9809369-Fitness-App-UI-Animation", "likes": 767, "views": 268000,
-      "youGet": ["A workout list and a live-session screen with the same motion language", "Your real workouts from your watch or a log you keep with Atu", "A Hey Atu Space on your phone, or a standalone web app"],
+      "by": "tubik",
+      "source": "Dribbble",
+      "kind": "Designer's concept",
+      "url": "https://dribbble.com/shots/9809369-Fitness-App-UI-Animation",
+      "likes": 767,
+      "views": 268000,
+      "youGet": [
+        "A workout list and a live-session screen with the same motion language",
+        "Your real workouts from your watch or a log you keep with Atu",
+        "A Hey Atu Space on your phone, or a standalone web app"
+      ],
       "promptBy": "Hey Atu",
       "prompt": "Build me a workout app with playful motion, in the style of tubik's Fitness App UI Animation (https://dribbble.com/shots/9809369-Fitness-App-UI-Animation).\n\nData: my workouts from my watch (ask which one and connect it on my Mac), plus anything I tell you in chat (\"did 3x10 squats at 60 kg\"). Use sample data until it is connected.\n\nScreens:\n1. This week: a stack of bold colour cards, one per workout type, each with minutes and a progress bar to my weekly goal.\n2. Session: tap a card and it expands into a full-screen session with a big timer, heart rate and the next exercise.\n3. History: a calendar with a dot per workout day.\n\nMotion: cards expand from where they were tapped, numbers count up, progress bars fill with a little overshoot. Keep every animation under 400 ms.\n\nMake it a Hey Atu Space I can open on my phone."
     },
     {
-      "id": "health-tracker-dashboard", "group": "health", "title": "A health tracker dashboard",
+      "id": "health-tracker-dashboard",
+      "group": "health",
+      "title": "A health tracker dashboard",
       "oneLiner": "One screen with heart rate, sleep, steps and calories, each as a clean card that animates in.",
-      "by": "Sigma Software Design", "source": "Dribbble", "kind": "Designer's concept", "url": "https://dribbble.com/shots/24693286-Health-Tracker-Dashboard-UI-UX-Design", "likes": 421, "views": 237000,
-      "youGet": ["A one-page dashboard: heart rate, sleep, steps, calories and weekly trends", "Your own wearable data, refreshed every morning", "A morning summary in Updates, with the dashboard one tap away"],
+      "by": "Sigma Software Design",
+      "source": "Dribbble",
+      "kind": "Designer's concept",
+      "url": "https://dribbble.com/shots/24693286-Health-Tracker-Dashboard-UI-UX-Design",
+      "likes": 421,
+      "views": 237000,
+      "youGet": [
+        "A one-page dashboard: heart rate, sleep, steps, calories and weekly trends",
+        "Your own wearable data, refreshed every morning",
+        "A morning summary in Updates, with the dashboard one tap away"
+      ],
       "promptBy": "Hey Atu",
       "prompt": "Build me a health dashboard in the style of Sigma Software Design's Health Tracker (https://dribbble.com/shots/24693286-Health-Tracker-Dashboard-UI-UX-Design).\n\nData: my wearable data (ask which device and connect it on my Mac), synced every morning. Use sample data until it is connected.\n\nLayout: a greeting and today's date, then a grid of cards: heart rate (live-style line), sleep (hours and stages bar), steps (ring to my goal), calories (bar per day this week), and a weekly trend card that compares this week with last week.\n\nLook: light, airy, generous white space, one accent colour per metric, rounded cards, large numbers. Cards fade and rise in one after another; charts draw from left to right.\n\nMake it a Hey Atu Space I can open on my phone, and send me a short morning summary in Updates that links to it. Not medical advice."
     },
     {
-      "id": "diet-workout-tracker", "group": "health", "title": "A diet and workout tracker",
+      "id": "diet-workout-tracker",
+      "group": "health",
+      "title": "A diet and workout tracker",
       "oneLiner": "Meals, macros and workouts in one app, with soft colours and friendly motion.",
-      "by": "Musemind", "source": "Dribbble", "kind": "Designer's concept", "url": "https://dribbble.com/shots/20243423-Diet-Workout-Tracker-App-Design-Nutrition-Mobile-App-UI-UX", "likes": 415, "views": 154000,
-      "youGet": ["A daily ring for calories and bars for protein, carbs and fat", "Log a meal by sending a photo or a sentence to Atu", "Workouts from your watch next to what you ate", "A Hey Atu Space on your phone, or a standalone web app"],
+      "by": "Musemind",
+      "source": "Dribbble",
+      "kind": "Designer's concept",
+      "url": "https://dribbble.com/shots/20243423-Diet-Workout-Tracker-App-Design-Nutrition-Mobile-App-UI-UX",
+      "likes": 415,
+      "views": 154000,
+      "youGet": [
+        "A daily ring for calories and bars for protein, carbs and fat",
+        "Log a meal by sending a photo or a sentence to Atu",
+        "Workouts from your watch next to what you ate",
+        "A Hey Atu Space on your phone, or a standalone web app"
+      ],
       "promptBy": "Hey Atu",
       "prompt": "Build me a diet and workout tracker in the style of Musemind's Diet & Workout Tracker (https://dribbble.com/shots/20243423-Diet-Workout-Tracker-App-Design-Nutrition-Mobile-App-UI-UX).\n\nData: I log meals by sending you a photo or a sentence (\"two eggs and toast\"); estimate calories and macros and let me correct them. Pull workouts and active calories from my watch (ask which one and connect it on my Mac). Use sample data to start.\n\nScreens:\n1. Today: a calorie ring (eaten vs goal, with burned added back), three macro bars, meals as cards with a small photo.\n2. Week: calories in vs out per day, and a line for weight if I log it.\n3. Workouts: this week's sessions.\n\nLook: soft pastel cards, one strong accent, rounded type, friendly icons. Rings and bars animate when the screen opens.\n\nMake it a Hey Atu Space I can open on my phone."
     },
     {
-      "id": "distilbook-launch-film", "group": "launch", "title": "A 40-second showreel for your product",
+      "id": "distilbook-launch-film",
+      "group": "launch",
+      "title": "A 40-second showreel for your product",
       "oneLiner": "The agent researched the product, then made a 40-second motion film of its features from one prompt.",
-      "by": "@ajith_io", "source": "X", "kind": "Made by an agent", "url": "https://x.com/ajith_io/status/2103469807375208546", "likes": 640, "views": 110671, "tools": "Claude Opus 5.5",
-      "youGet": ["A 40-second 1080p motion film of your product's features", "Real UI and copy from your own site", "16:9 and 9:16 versions for your site and social"],
+      "by": "@ajith_io",
+      "source": "X",
+      "kind": "Made by an agent",
+      "url": "https://x.com/ajith_io/status/2103469807375208546",
+      "likes": 640,
+      "views": 110671,
+      "tools": "Claude Opus 5.5",
+      "youGet": [
+        "A 40-second 1080p motion film of your product's features",
+        "Real UI and copy from your own site",
+        "16:9 and 9:16 versions for your site and social"
+      ],
       "promptBy": "the creator",
       "prompt": "Research [your product]. Make a dynamic 40-second motion graphics video on [your product] that shows what an incredible motion designer you are, like it's your showreel. Go all out."
     },
     {
-      "id": "saas-launch-film", "group": "launch", "title": "A SaaS launch film with real product shots",
+      "id": "saas-launch-film",
+      "group": "launch",
+      "title": "A SaaS launch film with real product shots",
       "oneLiner": "Told to pick a well-known SaaS, the agent chose Notion, pulled real assets and cut a launch film.",
-      "by": "@moritzkremb", "source": "X", "kind": "Made by an agent", "url": "https://x.com/moritzkremb/status/2103066071838466494", "likes": 445, "views": 100530, "tools": "Claude Opus 5.5",
-      "youGet": ["A 45-second launch film: hook, features, social proof, end card", "Your product's real screenshots and logo", "An MP4 ready for X, LinkedIn and your site"],
+      "by": "@moritzkremb",
+      "source": "X",
+      "kind": "Made by an agent",
+      "url": "https://x.com/moritzkremb/status/2103066071838466494",
+      "likes": 445,
+      "views": 100530,
+      "tools": "Claude Opus 5.5",
+      "youGet": [
+        "A 45-second launch film: hook, features, social proof, end card",
+        "Your product's real screenshots and logo",
+        "An MP4 ready for X, LinkedIn and your site"
+      ],
       "promptBy": "the creator",
       "prompt": "I want you to create a highly professional SaaS product launch video. Go and find some SaaS, preferably just one that people know, so it's easier to identify with it. Pick that, and then make sure to get actual assets and images and all of that stuff from the internet. Turn it into these typical, very professionally edited, motion-graphics-styled product launch videos that you see people making on Twitter when they launch new SaaS products (which are showing off the features, the benefits, and all of these things).\n\nTo make one for your own product, replace the first part with: \"Make it for [your product]: [link].\""
     },
     {
-      "id": "punchy-social-promo", "group": "launch", "title": "A punchy vertical promo for social",
+      "id": "punchy-social-promo",
+      "group": "launch",
+      "title": "A punchy vertical promo for social",
       "oneLiner": "Big type, black and white, one idea per beat. Made for Lightspark in five minutes, with sound.",
-      "by": "@davidmarcus", "source": "X", "kind": "Made by an agent", "url": "https://x.com/davidmarcus/status/2103275618045686217", "likes": 284, "views": 26159, "tools": "Claude Opus 5.5",
+      "by": "@davidmarcus",
+      "source": "X",
+      "kind": "Made by an agent",
+      "url": "https://x.com/davidmarcus/status/2103275618045686217",
+      "likes": 284,
+      "views": 26159,
+      "tools": "Claude Opus 5.5",
       "aspect": "vertical",
-      "youGet": ["A 20-second 9:16 promo with sound", "Kinetic type that says what your product does in five beats", "Ready for Reels, TikTok, Shorts and Xiaohongshu"],
+      "youGet": [
+        "A 20-second 9:16 promo with sound",
+        "Kinetic type that says what your product does in five beats",
+        "Ready for Reels, TikTok, Shorts and Xiaohongshu"
+      ],
       "promptBy": "the creator",
       "prompt": "Make a punchy and modern short video for social that promotes [your product]'s capabilities. Needs to be production grade with sound."
     },
     {
-      "id": "feature-trailer", "group": "launch", "title": "A trailer for one new feature",
+      "id": "feature-trailer",
+      "group": "launch",
+      "title": "A trailer for one new feature",
       "oneLiner": "A Notion PM made the column-permissions launch trailer over a weekend: about 90 messages and 33 takes.",
-      "by": "@wustep", "source": "X", "kind": "Made by an agent", "url": "https://x.com/wustep/status/2104610435571884086", "likes": 156, "views": 55021, "tools": "Claude Opus 5.5, Remotion",
-      "youGet": ["A 30-second trailer for one feature: problem, the feature in your real UI, the end card", "Takes you can compare and refine in chat", "An MP4 for the changelog, X and your blog"],
+      "by": "@wustep",
+      "source": "X",
+      "kind": "Made by an agent",
+      "url": "https://x.com/wustep/status/2104610435571884086",
+      "likes": 156,
+      "views": 55021,
+      "tools": "Claude Opus 5.5, Remotion",
+      "youGet": [
+        "A 30-second trailer for one feature: problem, the feature in your real UI, the end card",
+        "Takes you can compare and refine in chat",
+        "An MP4 for the changelog, X and your blog"
+      ],
       "promptBy": "Hey Atu, from the creator's thread",
       "prompt": "Make a 30-second launch trailer for one new feature of [your product]: [feature name].\n\nStructure: open on the problem in one short line of big type; show the feature in a faithful rebuild of our real UI (use the screenshots I give you); end on \"[feature name]. Now available in [product]\" with our logo.\n\nBuild it in Remotion (React), 1920x1080, 30 fps, clean light theme, smooth easing, no stock footage. Render a take, show it to me, and keep a list of takes so I can compare versions."
     },
     {
-      "id": "music-video-reimagined", "group": "intro", "title": "A music video, re-imagined overnight",
+      "id": "chatgpt-launch-film-original",
+      "group": "launch",
+      "title": "A launch film like ChatGPT's",
+      "oneLiner": "White type cards and redrawn product UI, one story from the first question to the result. The style behind OpenAI's ChatGPT launch films.",
+      "by": "OpenAI",
+      "source": "YouTube",
+      "kind": "Style reference",
+      "url": "https://www.youtube.com/watch?v=MSiAd36bGeQ",
+      "likes": 2056,
+      "views": 256288,
+      "youGet": [
+        "A 30-40 second launch film in this style for your own product",
+        "9:16 and 16:9 from one timeline, music and UI sounds made in code",
+        "Four stills to approve before the full render"
+      ],
+      "promptBy": "Hey Atu",
+      "prompt": "Make a {30-40} second launch film for {product}: {one sentence on what it does}.\nAudience: {who it is for}. Formats: 9:16 1080x1920 and 16:9 1920x1080 from one timeline.\n\nFollow the visual grammar of OpenAI's ChatGPT launch videos (watch\nhttps://www.youtube.com/watch?v=MSiAd36bGeQ and https://www.youtube.com/watch?v=yyvVUEPSCu0\nif you can). Copy the grammar, not their logo, words or footage.\n\nStory\n1. One story from start to end: one user, one request, one result. No topic changes.\n   Use a made-up example ({e.g. \"morning coffee vlog\"}), never real customer data.\n2. Alternate two layers: a white type card with one selling line, then a product shot.\n   No voice-over; music and type tell the story. About half the time is type cards.\n3. Shape: pain line (0-3 s) -> product name -> the request typed into an input box ->\n   a step list the product works through -> 2-3 results, each introduced by a type card ->\n   a one-line summary -> lockup with the product name.\n\nType cards\n4. Pure white, black bold sans-serif, centred. One keyword per card in the brand colour.\n5. Words appear in small groups on a 16th-note grid; when a line wraps the block moves up.\n   Hold each card about 1.5 s.\n\nProduct shots\n6. Redraw the UI as a clean mock, not a screen recording: large type, tidy data, only the\n   parts this beat needs. Show the whole window only for results.\n7. The request: the input box slides in, the camera pushes in until the text is as big\n   as a title and follows the cursor as it types, then pulls back and sends.\n8. Working: a \"Thinking\" line with a light sweep, then a step list, one row every 0.2 s,\n   each with an app icon; empty circle -> spinner -> green tick; end on a large \"Done.\"\n9. Give the agent its own cursor: a black arrow with a small pill label, clicking things\n   like a teammate. The user's cursor is a hand.\n10. Behind window shots use a soft gradient; windows float with a soft shadow.\n\nMotion\n11. 120 BPM, one beat = 0.5 s; small moves land on 0.125 s.\n12. Each shot slides in from the right by about 3.5 %, holds completely still, and slides\n    out to the left by about 2.4 % just before the cut. No drifting while it holds.\n13. Prefer morphs to hard cuts: a button grows into the next screen, a card shrinks into\n    an input chip, the input box turns into a status pill.\n\nBuild\n14. Write the film as one HTML page with a pure seek(t) function (no timers, Math.random\n    or Date), render frames with Playwright and encode with FFmpeg. Keep every time in one\n    timeline file that both picture and sound read.\n15. Make the music and UI sounds in code (plucks on each list row, ticks on typing).\n16. Show me 4 stills first (opening card, request, step list, lockup). Render the full\n    film only after I approve them, then check the 9:16 version for text that wraps badly.\n\nDo not claim things the product cannot do. Put every product fact in one copy file so I\ncan check it."
+    },
+    {
+      "id": "pixel-promo-from-url",
+      "group": "launch",
+      "title": "A pixel-art promo from a URL and one line",
+      "oneLiner": "The agent read the product's site and made a pixel-art promo with real numbers from it. One slash command and a link.",
+      "by": "@yihui_indie",
+      "source": "X",
+      "kind": "Made by an agent",
+      "url": "https://x.com/yihui_indie/status/2108109791411532194",
+      "likes": 17,
+      "views": 7339,
+      "tools": "Claude Code, HyperFrames",
+      "youGet": [
+        "A pixel-art promo for your product, about 50 seconds",
+        "Real numbers and screens taken from your site",
+        "Chinese or English captions"
+      ],
+      "promptBy": "the creator",
+      "prompt": "/bs-hyperframes-pixel-promo 请你查看 [your site] 官网，用真实数据给 [your product] 做一个宣传片，开头用 [an example] 做案例。\n\nIn English: look at [your site], use its real data to make a promo film for [your product], and open with [an example] as the case."
+    },
+    {
+      "id": "raw-to-styled-edit",
+      "group": "edit",
+      "title": "Raw talking head in, styled edit out",
+      "oneLiner": "One raw clip goes in; the agent adds type, camera moves and transitions, and a video model rebuilds the scene with lips still in sync.",
+      "by": "@emmanuel_2m",
+      "source": "X",
+      "kind": "Made by an agent",
+      "url": "https://x.com/emmanuel_2m/status/2107778292824564122",
+      "likes": 59,
+      "views": 4905,
+      "tools": "Claude Opus 5.5, Scenario MCP, Seedance 2.5",
+      "youGet": [
+        "A vertical edit of one talking-head clip with type, camera moves and transitions",
+        "Optional restyled backgrounds from a video model",
+        "The raw and the edit side by side to compare"
+      ],
+      "promptBy": "Hey Atu, based on the post",
+      "prompt": "Here is one raw talking-head clip: [file]. Edit it into a punchy 9:16 video.\n\n1. Transcribe it and cut the pauses, false starts and filler.\n2. Add kinetic captions: one to three words at a time, the key word larger.\n3. Do the After Effects part in code: punch-in camera moves on key lines, title cards, transitions between sections.\n4. If a video model is available, restyle the background for two or three moments, keeping my lips in sync.\n5. Render a side-by-side of raw and edit so I can compare, then the final MP4."
+    },
+    {
+      "id": "conference-clips-ad",
+      "group": "edit",
+      "title": "An ad cut from 2,000 conference clips",
+      "oneLiner": "The agent watched every clip from a conference, tagged the usable shots and cut them into ads. An honest post about what it got wrong.",
+      "by": "@Mike_Stelzner",
+      "source": "X",
+      "kind": "Made by an agent",
+      "url": "https://x.com/Mike_Stelzner/status/2112121588317344197",
+      "likes": 8,
+      "views": 765,
+      "tools": "Claude, Gemini",
+      "youGet": [
+        "A searchable library of every clip with key moments",
+        "Ads with b-roll picked from your own footage",
+        "A shortlist you approve before anything is cut"
+      ],
+      "promptBy": "Hey Atu, based on the post",
+      "prompt": "My event footage is in [folder]: about [number] clips.\n\n1. Watch every clip and log it: who is in it, what happens, the best 3-second moments, and whether it is usable (focus, framing, sound).\n2. Make a searchable page of the clips with thumbnails and key moments.\n3. Propose b-roll for my ad script [script]: three options per line, from usable clips only.\n4. Wait for me to approve the shortlist, then cut a 30-second 9:16 ad with captions."
+    },
+    {
+      "id": "premiere-timeline-edit",
+      "group": "edit",
+      "title": "An edit you can finish in Premiere",
+      "oneLiner": "The agent cuts the video, then hands back a Premiere timeline: picture on one track, sound effects grouped, music left for you.",
+      "by": "@calsaistudio",
+      "source": "X",
+      "kind": "Made by an agent",
+      "url": "https://x.com/calsaistudio/status/2114508243712016708",
+      "likes": 2,
+      "views": 121,
+      "tools": "Claude Code, Premiere Pro",
+      "youGet": [
+        "A finished edit plus an XML timeline that opens in Premiere",
+        "One clip per track, mono audio files, every file starting at 0:00",
+        "The parts you still want to do by hand left open"
+      ],
+      "promptBy": "Hey Atu, based on the post",
+      "prompt": "Edit the footage in [folder] into a [length] video: [what it is about].\n\nWhen the edit is approved, export a timeline Premiere can import (FCP XML): picture on V1, voice on A1, sound effects grouped on their own tracks, an empty music track. Make every audio file mono and every file start at 0:00 so nothing drifts. Tell me how to import it."
+    },
+    {
+      "id": "edit-with-review-page",
+      "group": "edit",
+      "title": "An AI edit with a review page for notes",
+      "oneLiner": "The agent edited a whole video about itself, then put it on a review page where you leave notes at a frame and it re-cuts.",
+      "by": "@mrpaidsocial",
+      "source": "X",
+      "kind": "Made by an agent",
+      "url": "https://x.com/mrpaidsocial/status/2116281757955723456",
+      "likes": 0,
+      "views": 91,
+      "tools": "Claude Code, ElevenLabs",
+      "youGet": [
+        "A full edit with captions, music and motion graphics",
+        "A review page: play the cut, leave a note at any frame",
+        "A new version after each round of notes"
+      ],
+      "promptBy": "Hey Atu, based on the post",
+      "prompt": "Edit my footage in [folder] into a 9:16 video about [topic], in the style of [reference video].\n\nThen make a review page: the cut on the left, my notes on the right. I can pause at any frame and leave a note. When I say \"next round\", apply every open note, render V2, and show what changed for each note."
+    },
+    {
+      "id": "chat-only-edit",
+      "group": "edit",
+      "title": "A video edited only through chat",
+      "oneLiner": "A ten-minute talk cut with picture-in-picture screens and motion graphics, every step done by chatting with an agent in the cloud.",
+      "by": "@mattyp",
+      "source": "X",
+      "kind": "Made by an agent",
+      "url": "https://x.com/mattyp/status/2109475664629772522",
+      "likes": 446,
+      "views": 27775,
+      "tools": "Grok, cloud workspaces",
+      "still": true,
+      "youGet": [
+        "A long talk cut into sections with picture-in-picture screens",
+        "Motion graphics for the diagrams you describe",
+        "No editing app: every change is a chat message"
+      ],
+      "promptBy": "Hey Atu, based on the post",
+      "prompt": "Here is a [length] recording of me talking: [file], and the screen recordings I mention: [folder].\n\nCut it into sections. When I talk about a screen, show it full-frame with me as a small picture-in-picture in the corner. Turn the diagrams I describe into simple motion graphics. Give me a contact sheet of every shot with its timecode so I can ask for changes by number."
+    },
+    {
+      "id": "transcript-review-app",
+      "group": "edit",
+      "title": "A Descript + Frame.io hybrid, built by an agent",
+      "oneLiner": "A review app made for agents: word-by-word transcript, chapters, comments at a frame. Delete words to cut; the agent applies the notes.",
+      "by": "@codyschneider",
+      "source": "X",
+      "kind": "Made by an agent",
+      "url": "https://x.com/codyschneider/status/2121256832505090108",
+      "likes": 42,
+      "views": 3635,
+      "tools": "Claude Code",
+      "still": true,
+      "youGet": [
+        "A web app for one video: transcript, chapters, player and comments",
+        "Cut by deleting words in the transcript",
+        "Export the edit list for the agent to apply"
+      ],
+      "promptBy": "Hey Atu, based on the post",
+      "prompt": "Build me a review app for my video [file], like Descript crossed with Frame.io.\n\nLeft: chapters. Middle: a word-by-word transcript with speakers and timestamps; deleting words marks a cut. Right: the player and comments; I can pause and leave a note at a frame or on a selection of words. Add buttons to export the edit list (Markdown) and the comments (CSV), then apply both and render a new version."
+    },
+    {
+      "id": "music-video-reimagined",
+      "group": "intro",
+      "title": "A music video, re-imagined overnight",
       "oneLiner": "Given a song, a moodboard and Midjourney, the agent worked for 12 hours and returned a full music video.",
-      "by": "@anabology", "source": "X", "kind": "Made by an agent", "url": "https://x.com/anabology/status/2103534482930491441", "likes": 16513, "views": 20226211, "tools": "Claude Opus 5.5, Midjourney",
-      "youGet": ["A full-length video set to your track", "A visual style led by your moodboard", "Stills you can reuse as covers"],
+      "by": "@anabology",
+      "source": "X",
+      "kind": "Made by an agent",
+      "url": "https://x.com/anabology/status/2103534482930491441",
+      "likes": 16513,
+      "views": 20226211,
+      "tools": "Claude Opus 5.5, Midjourney",
+      "youGet": [
+        "A full-length video set to your track",
+        "A visual style led by your moodboard",
+        "Stills you can reuse as covers"
+      ],
       "promptBy": "the creator",
       "prompt": "I've included an MP4 file and an original link to a video that is called \"[title]\". [One line about the song.]\n\nI want you to independently do an end-to-end complete pass on making an updated version of this video. Use the exact same audio track and think and feel very deeply about what is the best way to visually represent all of the lyrics on screen. You do not need to anchor to the current style, you can do truly anything that you think might best let you visually express yourself, including abstract motion."
     },
     {
-      "id": "three-model-showreel", "group": "intro", "title": "Three openers, three models, one prompt each",
+      "id": "three-model-showreel",
+      "group": "intro",
+      "title": "Three openers, three models, one prompt each",
       "oneLiner": "A hand-drawn story, a kinetic-type showreel and a recipe with live counters, side by side.",
-      "by": "@N01ennn", "source": "X", "kind": "Made by an agent", "url": "https://x.com/N01ennn/status/2108520767092597182", "likes": 1465, "views": 121708, "tools": "Claude Opus, Sonnet and Haiku 5.5",
-      "youGet": ["An opener in one of three styles: hand-drawn story, kinetic type or step-by-step", "15 to 50 seconds, rendered to MP4", "Your title, logo and colours"],
+      "by": "@N01ennn",
+      "source": "X",
+      "kind": "Made by an agent",
+      "url": "https://x.com/N01ennn/status/2108520767092597182",
+      "likes": 1465,
+      "views": 121708,
+      "tools": "Claude Opus, Sonnet and Haiku 5.5",
+      "youGet": [
+        "An opener in one of three styles: hand-drawn story, kinetic type or step-by-step",
+        "15 to 50 seconds, rendered to MP4",
+        "Your title, logo and colours"
+      ],
       "promptBy": "the post",
       "prompt": "Pick one:\n\n1. A hand-drawn story: a little agent wakes up at its desk, gets feedback notes, fixes them, ends on heart eyes and a green check. 53 s.\n2. A kinetic type showreel: six easing curves, a morphing star, particles, blurred type, \"every frame written in code\". 15 s.\n3. A step-by-step White Russian recipe: ice, vodka, coffee liqueur, cream, with live counters and a checklist. 30 s.\n\nSwap the subject for your own: your channel, your product or your recipe."
     },
     {
-      "id": "product-intro-film", "group": "intro", "title": "A 15-second product intro",
+      "id": "product-intro-film",
+      "group": "intro",
+      "title": "A 15-second product intro",
       "oneLiner": "The agent visited the product's pages, wrote the script and animated a crisp 15-second intro.",
-      "by": "@ann_nnng", "source": "X", "kind": "Made by an agent", "url": "https://x.com/ann_nnng/status/2103723183899852885", "likes": 983, "views": 102857, "tools": "Claude Opus 5.5",
-      "youGet": ["A 15-second intro: the hook, the product in action, the logo", "Copy written from your own site", "An MP4 for the top of your launch post or video"],
+      "by": "@ann_nnng",
+      "source": "X",
+      "kind": "Made by an agent",
+      "url": "https://x.com/ann_nnng/status/2103723183899852885",
+      "likes": 983,
+      "views": 102857,
+      "tools": "Claude Opus 5.5",
+      "youGet": [
+        "A 15-second intro: the hook, the product in action, the logo",
+        "Copy written from your own site",
+        "An MP4 for the top of your launch post or video"
+      ],
       "promptBy": "the creator",
       "prompt": "Make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are. The content should focus on [your product]. You should visit the pages first to learn about the product, then write the video content yourself."
+    }
+  ],
+  "more": [
+    {
+      "by": "@levelsio",
+      "url": "https://x.com/levelsio/status/2116959423117857026",
+      "what": "Edits a folder of DJI clips into a 10-minute vlog from one sentence (text only)",
+      "likes": 2136,
+      "views": 209445
+    },
+    {
+      "by": "@gregpr07",
+      "url": "https://x.com/gregpr07/status/2044554557221675380",
+      "what": "Launch of Video Use, an open-source editing skill",
+      "likes": 1926,
+      "views": 273025
+    },
+    {
+      "by": "@Axel_bitblaze69",
+      "url": "https://x.com/Axel_bitblaze69/status/2078551452201754980",
+      "what": "Walkthrough of Video Use",
+      "likes": 1052,
+      "views": 117877
+    },
+    {
+      "by": "@silvanrec",
+      "url": "https://x.com/silvanrec/status/2114678426254946686",
+      "what": "ffmpeg-skill: cut, fit to 60 s and 9:16 from one sentence (Spanish)",
+      "likes": 617,
+      "views": 80317
+    },
+    {
+      "by": "@PrajwalTomar_",
+      "url": "https://x.com/PrajwalTomar_/status/2118705737509863491",
+      "what": "Raw clips plus reference videos, cut in the same style",
+      "likes": 15,
+      "views": 1878
     }
   ]
 }

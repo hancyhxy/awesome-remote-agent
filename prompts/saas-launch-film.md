@@ -19,4 +19,4 @@ I want you to create a highly professional SaaS product launch video. Go and fin
 To make one for your own product, replace the first part with: "Make it for [your product]: [link]."
 ```
 
-Paste it into a chat with [Hey Atu](https://heyatu.com/?utm_source=github&utm_medium=readme&utm_campaign=awesome-atu-marketplace&utm_content=saas-launch-film), or into Claude Code, Codex or Pi.
+Paste it into a chat with [Hey Atu](https://heyatu.com/?utm_source=github&utm_medium=readme&utm_campaign=awesome-remote-agent&utm_content=saas-launch-film), or into Claude Code, Codex or Pi.

@@ -19,4 +19,4 @@ I've included an MP4 file and an original link to a video that is called "[title
 I want you to independently do an end-to-end complete pass on making an updated version of this video. Use the exact same audio track and think and feel very deeply about what is the best way to visually represent all of the lyrics on screen. You do not need to anchor to the current style, you can do truly anything that you think might best let you visually express yourself, including abstract motion.
 ```
 
-Paste it into a chat with [Hey Atu](https://heyatu.com/?utm_source=github&utm_medium=readme&utm_campaign=awesome-atu-marketplace&utm_content=music-video-reimagined), or into Claude Code, Codex or Pi.
+Paste it into a chat with [Hey Atu](https://heyatu.com/?utm_source=github&utm_medium=readme&utm_campaign=awesome-remote-agent&utm_content=music-video-reimagined), or into Claude Code, Codex or Pi.

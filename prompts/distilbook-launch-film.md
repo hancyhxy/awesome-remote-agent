@@ -17,4 +17,4 @@ The agent researched the product, then made a 40-second motion film of its featu
 Research [your product]. Make a dynamic 40-second motion graphics video on [your product] that shows what an incredible motion designer you are, like it's your showreel. Go all out.
 ```
 
-Paste it into a chat with [Hey Atu](https://heyatu.com/?utm_source=github&utm_medium=readme&utm_campaign=awesome-atu-marketplace&utm_content=distilbook-launch-film), or into Claude Code, Codex or Pi.
+Paste it into a chat with [Hey Atu](https://heyatu.com/?utm_source=github&utm_medium=readme&utm_campaign=awesome-remote-agent&utm_content=distilbook-launch-film), or into Claude Code, Codex or Pi.

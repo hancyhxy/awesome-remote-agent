@@ -17,4 +17,4 @@ The agent visited the product's pages, wrote the script and animated a crisp 15-
 Make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are. The content should focus on [your product]. You should visit the pages first to learn about the product, then write the video content yourself.
 ```
 
-Paste it into a chat with [Hey Atu](https://heyatu.com/?utm_source=github&utm_medium=readme&utm_campaign=awesome-atu-marketplace&utm_content=product-intro-film), or into Claude Code, Codex or Pi.
+Paste it into a chat with [Hey Atu](https://heyatu.com/?utm_source=github&utm_medium=readme&utm_campaign=awesome-remote-agent&utm_content=product-intro-film), or into Claude Code, Codex or Pi.

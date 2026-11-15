@@ -21,4 +21,4 @@ Structure: open on the problem in one short line of big type; show the feature i
 Build it in Remotion (React), 1920x1080, 30 fps, clean light theme, smooth easing, no stock footage. Render a take, show it to me, and keep a list of takes so I can compare versions.
 ```
 
-Paste it into a chat with [Hey Atu](https://heyatu.com/?utm_source=github&utm_medium=readme&utm_campaign=awesome-atu-marketplace&utm_content=feature-trailer), or into Claude Code, Codex or Pi.
+Paste it into a chat with [Hey Atu](https://heyatu.com/?utm_source=github&utm_medium=readme&utm_campaign=awesome-remote-agent&utm_content=feature-trailer), or into Claude Code, Codex or Pi.

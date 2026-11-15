@@ -17,4 +17,4 @@ Big type, black and white, one idea per beat. Made for Lightspark in five minute
 Make a punchy and modern short video for social that promotes [your product]'s capabilities. Needs to be production grade with sound.
 ```
 
-Paste it into a chat with [Hey Atu](https://heyatu.com/?utm_source=github&utm_medium=readme&utm_campaign=awesome-atu-marketplace&utm_content=punchy-social-promo), or into Claude Code, Codex or Pi.
+Paste it into a chat with [Hey Atu](https://heyatu.com/?utm_source=github&utm_medium=readme&utm_campaign=awesome-remote-agent&utm_content=punchy-social-promo), or into Claude Code, Codex or Pi.

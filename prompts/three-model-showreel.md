@@ -23,4 +23,4 @@ Pick one:
 Swap the subject for your own: your channel, your product or your recipe.
 ```
 
-Paste it into a chat with [Hey Atu](https://heyatu.com/?utm_source=github&utm_medium=readme&utm_campaign=awesome-atu-marketplace&utm_content=three-model-showreel), or into Claude Code, Codex or Pi.
+Paste it into a chat with [Hey Atu](https://heyatu.com/?utm_source=github&utm_medium=readme&utm_campaign=awesome-remote-agent&utm_content=three-model-showreel), or into Claude Code, Codex or Pi.

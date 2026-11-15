@@ -30,4 +30,4 @@ Look: warm off-white background, white rounded cards with soft shadows, one cora
 Make it a Hey Atu Space I can open on my phone. Add a small line: not medical advice.
 ```
 
-Paste it into a chat with [Hey Atu](https://heyatu.com/?utm_source=github&utm_medium=readme&utm_campaign=awesome-atu-marketplace&utm_content=openstrap-wearable-app), or into Claude Code, Codex or Pi.
+Paste it into a chat with [Hey Atu](https://heyatu.com/?utm_source=github&utm_medium=readme&utm_campaign=awesome-remote-agent&utm_content=openstrap-wearable-app), or into Claude Code, Codex or Pi.

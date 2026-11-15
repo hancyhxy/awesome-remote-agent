@@ -29,4 +29,4 @@ Look: soft pastel cards, one strong accent, rounded type, friendly icons. Rings 
 Make it a Hey Atu Space I can open on my phone.
 ```
 
-Paste it into a chat with [Hey Atu](https://heyatu.com/?utm_source=github&utm_medium=readme&utm_campaign=awesome-atu-marketplace&utm_content=diet-workout-tracker), or into Claude Code, Codex or Pi.
+Paste it into a chat with [Hey Atu](https://heyatu.com/?utm_source=github&utm_medium=readme&utm_campaign=awesome-remote-agent&utm_content=diet-workout-tracker), or into Claude Code, Codex or Pi.
